@@ -1,11 +1,134 @@
 
-@media screen and (max-width: 1200px) {
-    .nav-bar{
+@media screen and (max-width: 420px) {
+    .nav-bar{display: none;
+        justify-content: initial;
+    }
+    /*nav bar*/
+    .logo{
+        width: min-content;
+    }
+    #hamburger{
+        width: 23rem;   
+    }
+    .hamburger-icon{
+        margin-left: -2rem;
+    }
+    .menu-link{
+        margin-top: 2rem;
+        margin-left: -3rem;
+    }
+    /*profile*/
+    #profile{
+        display: inline-block;
+        width: 3rem;
+    }
+    .pic_container{
+        width: 3rem;
+        height: 20rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 4rem;
+    }
+    .text1{
+        width: 15rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 10rem;
+    }
+    /*about*/
+    #about{
+        display: inline-block;
+        margin-top: 12rem;
+    }
+    .text22{
+        width: 15rem;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    .about1{
+        display: inline-block;
+        width: 20rem;
+    }
+    .about_pic{
+        width: 2rem;
+        margin-left: -8.5rem;
+    }
+    .aboutme2{
+        width: 3rem;
+        margin-left: 0rem;
+        gap: 1rem;
+    }
+    .note{
+        width: 18rem;
+        margin-left: -8rem;
+    }
+    /*experience*/
+    #experience{
+        display: inline-block;
+        margin-top: 30rem;
+    }
+    .text23{
+        margin-top: 1rem;
+        text-align: justify;
+        margin-left: 7.5rem;
+    }
+    .expTab{
+        display: inline-block;
+        width: 17rem;
+        justify-content: center;
+        margin-left: 2rem;
+        gap: 2rem;
+        margin-bottom: 5rem;
+    }
+    .head{
+        text-align: center;
+    }
+    #project{
+        text-align: center;
+        margin-top: 65rem;
+        margin-left: 0rem;
+        width: 20rem;
+    }
+    .tab1{
+        width: 20rem;
+        gap: 2rem;
+        margin-left: 1rem;
+    }
+    .front1{
+        width: 14rem;
+    }
+    .front1 img{
+        width: 13rem;
+    }
+    /*contact*/
+    #contact{
+        display: inline-block;
+        margin-top: 40rem;
+        width: 23rem;
+    }
+    .cont_{
+        width: 23rem;
+        justify-content: center;
+    }
+    .detail_text{
+        margin-left: -2rem;
+        width: 14rem;
+        display: inline-block
+    }
+    .detail1 ul{
+        display: inline-block;
+        text-align: left;
+        width: 14rem;
+        margin-top: -2rem;
+        margin-left: -30rem;
+    }
+    footer{
+        width: 20rem;
+    }
+    .arrow{
         display: none;
     }
-    #menu-link{
-        display: inline-block;
-    }
+
 }
 @media screen and (min-width: 1201px) {
     .nav-bar{
